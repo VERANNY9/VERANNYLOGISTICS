@@ -39,7 +39,7 @@ Railway supplies `PORT` automatically. The included entrypoint configures Apache
 
 ## Admin access
 
-Use the email and password of an account already present in `users.json`, or register a new account from the portal. If `users.json` is absent on a new installation, set `ADMIN_PASSWORD` in Railway before the first request; it is used only to create the initial admin account. The old hard-coded CEO bypass has been removed. Do not commit real passwords or private customer data to a public repository.
+Use the existing CEO login or the email and password of an account already present in `users.json`. The current CEO login is `VerannyLogistics` with password `Buhembe@12`. Do not commit real passwords or private customer data to a public repository.
 
 ## Important production notes
 
