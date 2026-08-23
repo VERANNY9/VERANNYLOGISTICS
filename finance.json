@@ -1,0 +1,66 @@
+{
+    "safari": [
+        {
+            "title": "safari ya KENYA",
+            "fuel": "2500000",
+            "driver": "250000",
+            "toll": "150000",
+            "other": "100000",
+            "total": 3000000,
+            "date": "20 Aug 2026"
+        }
+    ],
+    "cashflow": 26800000,
+    "investment": 65000000,
+    "cash_flow": 25780000,
+    "investment_value": 65000000,
+    "savings": 10000000,
+    "transactions": [
+        {
+            "id": "178722932877",
+            "date": "20 Aug 2026, 14:35",
+            "driver_name": "nassoror juma",
+            "destination": "TUNDUMA-KENYA",
+            "cargo_desc": "MAHINDI",
+            "cargo_qty": "TANI 33",
+            "collected_amount": 9000000,
+            "profit_amount": 5000000,
+            "desc": "Kufunga Hesabu: Kwenda TUNDUMA-KENYA | Mizigo: MAHINDI (TANI 33) | Makusanyo: 9,000,000 | Faida: 5,000,000",
+            "amount": 5000000,
+            "type": "income_settlement",
+            "receipt_photo": "uploads\/1787229328_Screenshot 2026-08-06 175344.png",
+            "change_reason": "",
+            "ceo_comment": "iko vizuri kazi nzuri dereva",
+            "accountant_status": "pending",
+            "ceo_seen": false,
+            "driver_reply": "asante boss"
+        },
+        {
+            "date": "20 Aug 2026, 14:07",
+            "desc": "[Dereva] Safari: safari ya tunduma-kenya | Lita: 800L (Mafuta: 1,760,000, Faini: 60,000)",
+            "amount": -1920000,
+            "type": "expense",
+            "receipt_photo": "uploads\/1787227679_SAMIL.jpeg",
+            "ceo_comment": "RISITI YA APA IKO WAP",
+            "ceo_seen": true
+        },
+        {
+            "date": "20 Aug 2026",
+            "desc": "safari ya dodoma maharage (Mafuta: 1,750,000, Dereva: 200,000)",
+            "amount": -2100000,
+            "type": "expense"
+        },
+        {
+            "date": "18 Aug 2026",
+            "desc": "Malipo ya Mafuta & Safari ya Scania",
+            "amount": -650000,
+            "type": "expense"
+        },
+        {
+            "date": "02 Aug 2026",
+            "desc": "Mapato ya Usafirishaji Shehena ya Mazao",
+            "amount": 5200000,
+            "type": "income"
+        }
+    ]
+}

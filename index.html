@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veranny Logistics | Heavy Commercial & Produce Transport</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --brand-blue: #1c2653; 
+            --brand-red: #d32027;  
+            --bg-light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-light);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6, .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Public Navbar */
+        .public-nav {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .public-nav .nav-link {
+            color: var(--brand-blue);
+            font-weight: 600;
+            margin: 0 8px;
+            transition: 0.3s;
+        }
+        .public-nav .nav-link:hover, .public-nav .nav-link.active {
+            color: var(--brand-red);
+        }
+        .logo-img {
+            height: 50px;
+            object-fit: contain;
+        }
+
+        /* Hero Carousel Styling */
+        .hero-slide {
+            padding: 150px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--brand-blue);
+            transition: 0.3s;
+        }
+        .stat-card:hover { transform: translateY(-5px); }
+        .stat-card.red-border { border-left-color: var(--brand-red); }
+    </style>
+</head>
+<body>
+
+    <!-- ================= PUBLIC WEBSITE CONTAINER ================= -->
+    <div id="public-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg public-nav sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="veranny logistics.jpeg" alt="Veranny Logistics Logo" class="logo-img" onerror="this.src='https://placehold.co/150x50?text=Veranny+Logistics'">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 1. HOME SECTION -->
+        <section id="home">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active hero-slide" style="background: linear-gradient(rgba(28, 38, 83, 0.85), rgba(28, 38, 83, 0.85)), url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+                        <div class="container text-center">
+                            <h1 class="display-3 fw-bold mb-4">Heavy Commercial & Produce Transport</h1>
+                            <p class="lead mb-5">Usafirishaji wa mizigo ya jumla na mazao ya kilimo kwa usalama mkubwa na kwa wakati sahihi.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item hero-slide" style="background: linear-gradient(rgba(28, 38, 83, 0.85), rgba(28, 38, 83, 0.85)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+                        <div class="container text-center">
+                            <h1 class="display-3 fw-bold mb-4">Soko la Mazao & Huduma za Usafiri</h1>
+                            <p class="lead mb-5">Tunakuunganisha na wanunuzi na wauzaji wa mazao pamoja na kusafirisha shehena yako popote ulipo.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item hero-slide" style="background: linear-gradient(rgba(28, 38, 83, 0.85), rgba(28, 38, 83, 0.85)), url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+                        <div class="container text-center">
+                            <h1 class="display-3 fw-bold mb-4">Uaminifu na Uhakika Kwanza</h1>
+                            <p class="lead mb-5">Wasiliana nasi leo kwa usafiri wa uhakika wa biashara na mali zako.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video Section on Home -->
+            <div class="container py-5">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h6 class="text-danger fw-bold text-uppercase">Tazama Kazi Yetu</h6>
+                        <h2 class="fw-bold mb-3" style="color: var(--brand-blue);">Veranny Logistics Kazini</h2>
+                        <p class="text-muted">Video fupi kuonyesha namna tunavyosafirisha shehena nzito za mazao na bidhaa za kibiashara kwa usalama mkubwa barabarani.</p>
+                        <ul class="list-unstyled text-muted">
+                            <li><i class="fas fa-check-circle text-success me-2"></i> Usafiri wa Scania na malori makubwa</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> Uhakika wa kufikisha mzigo kwa wakati</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> Uangalizi wa karibu wa CEO na timu nzima</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+                            <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Veranny Logistics Transport Video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center mt-4">
+                    <div class="col-md-4 mb-4">
+                        <i class="fas fa-seedling fa-3x mb-3" style="color: var(--brand-blue);"></i>
+                        <h4 class="fw-bold">Biashara ya Mazao</h4>
+                        <p class="text-muted">Nunua au uuze mazao ya kilimo kupitia mtandao wetu wenye uhakika wa malipo na usafiri.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <i class="fas fa-truck-moving fa-3x mb-3" style="color: var(--brand-red);"></i>
+                        <h4 class="fw-bold">Oda za Usafiri (Orders)</h4>
+                        <p class="text-muted">Fanya booking ya lori kusafirisha mzigo wako kwa urahisi na kwa bei nafuu.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <i class="fas fa-comments fa-3x mb-3" style="color: var(--brand-blue);"></i>
+                        <h4 class="fw-bold">Maoni na Huduma</h4>
+                        <p class="text-muted">Tuna thamini maoni yako ili tuendelee kuboresha huduma zetu kila siku.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

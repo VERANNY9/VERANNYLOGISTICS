@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+
+# Keep application data files from being downloaded directly.
+<FilesMatch "\.(json|log|ini|env)$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1787233842,
+        "first_name": "STELLA",
+        "last_name": "JONATHANI",
+        "email": "stellajonathan@gmail.com",
+        "password": "$2y$10$dYR.kizETzRVIsNzFqMBR.miaNK\/ww25\/00zQMcsyOdAVew6G99eK",
+        "role": "manager",
+        "title": "Manager",
+        "photo": "uploads\/user_1787233842_1787233887_user_1787233473_1787233507_stella.jpg"
+    },
+    {
+        "first_name": "NELIUS",
+        "last_name": "STEVEN",
+        "email": "admin@verannylogistics.com",
+        "password": "$2y$10$DVqSUhaP2IyqKSCIrhHsy.UucuwS61yepBLW.M0nOY4PH0yJb8Byu",
+        "id": 1787233901,
+        "photo": "uploads\/user_up_1787233901_1787234570_user_1_1787234199_1787223200_nelius.jpeg",
+        "role": "admin",
+        "title": "Chief Executive Officer (CEO)"
+    },
+    {
+        "first_name": "NASSORO",
+        "last_name": "MAHENGO",
+        "email": "nassoromahengo@gmail.com",
+        "password": "$2y$10$g.T3ssPxBJc4.dEft1.Oa.qRW5wT\/BBA\/iiKjRxgkWBKzuwT6MTvO",
+        "role": "driver",
+        "id": 1787234347,
+        "photo": "uploads\/user_up_1787234347_1787234578_WhatsApp Image 2026-08-20 at 15.19.17.jpeg",
+        "title": "Afisa Masoko na Dereva Mkuu"
+    },
+    {
+        "first_name": "ELIAH",
+        "last_name": "GUGA",
+        "email": "eliah.guga@bukobamc.go.tz",
+        "password": "$2y$10$BmUWUgGRTQ1wbMmRl5HrBuCQeAhPkaWq0SfSGO0E2z7i\/81qbnBmG",
+        "role": "advisor",
+        "title": "Mshauri wa Kampuni",
+        "photo": "https:\/\/cdn-icons-png.flaticon.com\/512\/3135\/3135823.png",
+        "id": 1787234309
+    },
+    {
+        "first_name": "ALISTIDES",
+        "last_name": "STEVEN",
+        "email": "buhembemedium@yahoo.com",
+        "password": "$2y$10$cXq2gL\/TNOHvzGjeKjHmj.g6G5zdTnt23z4lKH.WqV5jSqfzqdRje",
+        "role": "managing_director",
+        "title": "Managing Director",
+        "photo": "uploads\/user_up_1787234558_1787234589_staff_2_1787234263_user_1787233521_1787233535_alistides.jpeg",
+        "id": 1787234558
+    },
+    {
+        "id": 1787233615,
+        "first_name": "LIVINUS",
+        "last_name": "MWIJAGE",
+        "email": "livinusmwijage@gmail.com",
+        "password": "$2y$10$BC0HepmfH128o5OE6WgzvO1AH00HTNmpaowaxYh\/mRAs8QaRvY9Qi",
+        "role": "accountant",
+        "title": "Mhasibu (Accountant)",
+        "photo": "https:\/\/cdn-icons-png.flaticon.com\/512\/3135\/3135715.png"
+    }
+]

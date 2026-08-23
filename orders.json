@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1787221079,
+        "customer_name": "abdul",
+        "phone": "0793431912",
+        "action_type": "Kununua",
+        "crop_name": "mahindi",
+        "quantity": "tani 30",
+        "message": "naomba kupata muongozo tafadhari",
+        "created_at": "2026-08-20 12:17:59"
+    },
+    {
+        "id": 1787220140,
+        "customer_name": "abdul",
+        "phone": "0793431912",
+        "action_type": "Kununua",
+        "crop_name": "mahindi",
+        "quantity": "tani 30",
+        "message": "naomba kupata muongozo tafadhari",
+        "created_at": "2026-08-20 12:02:20"
+    },
+    {
+        "id": 1787219670,
+        "customer_name": "abdul",
+        "phone": "0793431912",
+        "action_type": "Kununua",
+        "crop_name": "mahindi",
+        "quantity": "tani 30",
+        "message": "naomba kupata muongozo tafadhari",
+        "created_at": "2026-08-20 11:54:30"
+    },
+    {
+        "id": 1787214636,
+        "customer_name": "juma",
+        "phone": "0797431912",
+        "action_type": "Kuuza",
+        "crop_name": "mahindi",
+        "quantity": "tani 30",
+        "message": "nauza mahindi ",
+        "created_at": "2026-08-20 10:30:36"
+    },
+    {
+        "id": 1787213532,
+        "customer_name": "juma",
+        "phone": "0797431912",
+        "action_type": "Kuuza",
+        "crop_name": "mahindi",
+        "quantity": "tani 30",
+        "message": "nauza mahindi ",
+        "created_at": "2026-08-20 10:12:12"
+    },
+    {
+        "date": "2026-08-20 12:34:46",
+        "name": "juma ally",
+        "phone": "0747641922",
+        "service": "Kusafirisha Mzigo (Transport)",
+        "product": "tani 20",
+        "details": "mzigo unachukuliwa tunduma mahindi yanaenda kenya nairobi "
+    },
+    {
+        "date": "2026-08-20 13:27:43",
+        "name": "Collin",
+        "phone": "0757219157",
+        "service": "Kusafirisha Mzigo (Transport)",
+        "product": "Tani 10",
+        "details": "Nahitaji kusafirishwa mahindi"
+    },
+    {
+        "date": "2026-08-20 13:28:56",
+        "name": "Winston Mutabuzi Mwombeki",
+        "phone": "0794291006",
+        "service": "Kununua \/ Kuagiza Mazao",
+        "product": "Mahindi tan 20",
+        "details": "Bukoba kashai"
+    },
+    {
+        "date": "2026-08-20 13:30:51",
+        "name": "Aranus Kaijage",
+        "phone": "0754030217",
+        "service": "Kununua \/ Kuagiza Mazao",
+        "product": "Maharage",
+        "details": "Nataka mzigo wa maharage ya njano"
+    },
+    {
+        "date": "2026-08-20 13:30:56",
+        "name": "Aranus Kaijage",
+        "phone": "0754030217",
+        "service": "Kununua \/ Kuagiza Mazao",
+        "product": "Maharage",
+        "details": "Nataka mzigo wa maharage ya njano"
+    },
+    {
+        "date": "2026-08-20 13:30:57",
+        "name": "Aranus Kaijage",
+        "phone": "0754030217",
+        "service": "Kununua \/ Kuagiza Mazao",
+        "product": "Maharage",
+        "details": "Nataka mzigo wa maharage ya njano"
+    },
+    {
+        "date": "2026-08-20 13:31:02",
+        "name": "Aranus Kaijage",
+        "phone": "0754030217",
+        "service": "Kununua \/ Kuagiza Mazao",
+        "product": "Maharage",
+        "details": "Nataka mzigo wa maharage ya njano"
+    }
+]

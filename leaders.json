@@ -1,0 +1,38 @@
+[
+    {
+        "name": "NELIUS STEVEN",
+        "role": "CEO",
+        "bio": "Kiongozi Mkuu mwenye maono ya kuendesha kampuni na kusimamia mikakati yote ya kibiashara.",
+        "image": "uploads\/user_1_1787234199_1787223200_nelius.jpeg"
+    },
+    {
+        "name": "ALISTIDES STEVEN",
+        "role": "Managing Director",
+        "bio": "Anasimamia shughuli za kila siku za uendeshaji na utekelezaji wa malengo ya kampuni.",
+        "image": "uploads\/staff_2_1787234263_user_1787233521_1787233535_alistides.jpeg"
+    },
+    {
+        "name": "STELLA JONATHANI",
+        "role": "Director",
+        "bio": "Anatoa miongozo ya kimkakati na kusimamia maendeleo ya miradi ya kampuni.",
+        "image": "uploads\/staff_3_1787303087_user_1787233842_1787233887_user_1787233473_1787233507_stella.jpg"
+    },
+    {
+        "name": "NASSORO JUMA",
+        "role": "Afisa Masoko & Dereva",
+        "bio": "Dereva na Anaratibu masoko, upatikanaji wa wateja, na kukuza jina la kampuni sokoni.",
+        "image": "uploads\/staff_4_1787234293_WhatsApp Image 2026-08-20 at 15.19.17.jpeg"
+    },
+    {
+        "name": "LIVINUS MWIJAGE",
+        "role": "Muhasibu",
+        "bio": "Anasimamia masuala yote ya fedha, mapato, matumizi, na hesabu za kampuni.",
+        "image": "default.jpg"
+    },
+    {
+        "name": "ELIAH GUGAH",
+        "role": "Mshauri wa Kampuni",
+        "bio": "Anatoa ushauri wa kitaalamu wa kisheria, uwekezaji, na mikakati ya kukuza biashara.",
+        "image": "default.jpg"
+    }
+]
