@@ -7,6 +7,10 @@ RUN a2enmod rewrite
 RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 RUN echo 'ServerName localhost' > /etc/apache2/conf-available/servername.conf \
     && a2enconf servername
+# PHP's Apache image uses prefork. Ensure no other MPM is loaded at runtime.
+RUN a2dismod mpm_event mpm_worker mpm_prefork || true \
+    && a2enmod mpm_prefork \
+    && apache2ctl configtest
 COPY . /var/www/html/
 
 # Apache must listen on Railway's assigned PORT.
